@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+ h1{
+  text-align: center;
+ }
+
+ img {
+  display: block;
+  margin: 0 auto;
+ }
+
+ nav {
+  text-align: center;
+ }
+
+ figcaption{
+  text-align: center;
+  font-size: 12px;
+ }
+
+ nav a{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background: #3D8361;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    box-shadow: 0 6px #1C6758;
+    border-radius: 20px;
+ }
+
+ #featured-property p{
+  width: 800px;
+  text-align: center;
+  margin: 8px auto;
+ }
+
+ #details div{
+  float: left;
+  background-color: lightblue;
+  width: 25%;
+  text-align: center;
+}
